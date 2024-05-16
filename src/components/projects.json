@@ -1,0 +1,45 @@
+{
+    "projects": [
+    {
+        "title": "Artemis : MIS System",
+        "tech": ["SvelteKit", "Nodejs", "SQlite","React"],
+        "img": "https://i.ibb.co/gZqM5dN/Screenshot-from-2024-05-09-01-44-49.png",
+        "links": ["https://github.com/darzhz/artemis2"]
+    },
+    {
+        "title": "Hakxite : Hackathon Website",
+        "tech": ["Html", "Javascript", "CSS"],
+        "img": "https://i.ibb.co/PxVnR7h/image.png",
+        "links": ["https://hakxite.vercel.app/","https://github.com/darzhz/hakxite"]
+    },
+    {
+        "title": "RealNotes : RealTime Note Sharing",
+        "tech": ["Nodejs", "Mongodb", "Websockets"],
+        "img": "https://i.ibb.co/vqZbBv0/image.png",
+        "links": ["https://realnotes.glitch.me","https://github.com/darzhz/Realnotes"]
+    },
+    {
+        "title": "Divert : Url Shortener",
+        "tech": ["Nodejs", "Mongodb", "Websockets"],
+        "img": "https://i.ibb.co/MNHdrQx/image.png",
+        "links": ["https://divert.onrender.com/","https://github.com/darzhz/Divert"]
+    },
+    {
+        "title": "LLH : A Light Pollution Map",
+        "tech": ["Javascript", "leaflet", "python"],
+        "img": "https://i.ibb.co/DtWhwj2/image.png",
+        "links": ["https://llh.glitch.me/","https://github.com/darzhz/lightlesshouse"]
+    },
+    {
+        "title": "Mapacova : covid19 ( 2019-nCoV) containment zone mapping",
+        "tech": ["Javascript", "leaflet", "p5js"],
+        "img": "https://i.ibb.co/WsDkJ3X/image.png",
+        "links": ["https://github.com/darzhz/mapacova"]
+    },
+    {
+        "title": "FDAR : Fall Detection And Activity Recognition Using Human Skeletal Features",
+        "tech": ["tensorflow.js", "ffmpeg", "jyuptyer Notebook"],
+        "img": "https://i.ibb.co/WsDkJ3X/image.png",
+        "links": ["https://github.com/darzhz/FDAR"]
+    }
+]}
