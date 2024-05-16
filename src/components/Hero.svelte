@@ -1,7 +1,7 @@
 <script>
     let salutation = "Full Stack Developer"
     import img from "./art11.png";
-    let description = "I'm a Full Stack Developer with a passion for building web applications and all things tech with an experience in freelance development for 4 years and an attitude that keeps learning"
+    let description = "Crafting digital experiences that leave a lasting impression - one line of code at a time"
     import FancyName from "./FancyName.svelte";
 </script>
 <div class="hero">
