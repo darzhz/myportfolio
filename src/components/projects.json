@@ -1,4 +1,7 @@
 {
+    "descrption" : {
+        "description":"Heya Folks"
+    },
     "projects": [
     {
         "title": "Artemis : MIS System",

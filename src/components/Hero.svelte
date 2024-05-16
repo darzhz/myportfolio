@@ -1,7 +1,7 @@
 <script>
     let salutation = "Full Stack Developer"
     import img from "./art11.png";
-    let description = "I'm a Full Stack Developer with a passion for building web applications."
+    let description = "I'm a Full Stack Developer with a passion for building web applications and all things tech with an experience in freelance development for 4 years and an attitude that keeps learning"
     import FancyName from "./FancyName.svelte";
 </script>
 <div class="hero">
@@ -13,7 +13,7 @@
         <p class="desc">{description}</p>
         <div class="btns">
             <a  class="button" href='/#projects'>View Projects</a>
-            <button class="button">Download Resume</button>
+            <a class="button" href='https://drive.google.com/file/d/1FBL4UdLPD9-FCzxb-2Q34ZK-wYH_xwzD/view?usp=sharing'>Download Resume</a>
         </div>
     </div>
     <div class="content">
