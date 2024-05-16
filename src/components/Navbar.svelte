@@ -1,9 +1,9 @@
 <div class="nav">
-    <div class="logo">DARZH</div>
+    <div class="logo"><p>DARZH</p></div>
     <div class="links">
-        <span class="link oswald">Home</span>
-        <span class="link oswald">Projects</span>
-        <span class="link oswald">Contacts</span>
+        <span class="link ">Home</span>
+        <span class="link ">Projects</span>
+        <span class="link ">Contacts</span>
     </div>
 </div>
 <style>
@@ -18,13 +18,15 @@
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
         color: white;
-        width: 80vw;
+        width: 90vw;
         gap: 50%;
+        position: relative;
     }
     .link{
         font-size: 1rem;
         margin-right: 1rem;
         cursor: pointer;
+        font-family: 'satoshi-light',sans-serif;
     }
     .logo {
         font-size: 1.5rem;

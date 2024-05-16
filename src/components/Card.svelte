@@ -25,14 +25,20 @@
 </div>
 <div class="links">
 {#each links as link }
-    <span class="link"><a href={"http://"+link} >{getDomain(link)}</a></span>
+    <span class="link"><a href={link} >{getDomain(link)}</a></span>
 {/each}
 </div>
 </div>
 <style>
     .title{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        font-family: 'satoshi-regular',sans-serif;
+        white-space: nowrap;
+        width: 200px;
+        display: block;
+        overflow: hidden;
+        text-overflow: " [...]";
     }
     .card{
         /* background: #333; */
@@ -54,6 +60,7 @@
         font-size: x-small;
         cursor: pointer;
         transition: transform 0.3s;
+        font-family: 'satoshi-light',sans-serif;
     }
     .tag:hover{
         transform: scale(1.1);
@@ -62,6 +69,7 @@
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
+        font-family: 'satoshi-light',sans-serif;
     }
     .link{
         font-size: 1rem;

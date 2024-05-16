@@ -5,10 +5,146 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../src/assets/WEB/fonts/Satoshi-Light.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Light.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-LightItalic';
+  src: url('../src/assets/WEB/fonts/Satoshi-LightItalic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-LightItalic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../src/assets/WEB/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Regular.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-Italic';
+  src: url('../src/assets/WEB/fonts/Satoshi-Italic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Italic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../src/assets/WEB/fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Medium.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../src/assets/WEB/fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-MediumItalic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../src/assets/WEB/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Bold.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BoldItalic';
+  src: url('../src/assets/WEB/fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-BoldItalic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../src/assets/WEB/fonts/Satoshi-Black.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Black.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('../src/assets/WEB/fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-BlackItalic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../src/assets/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-Variable.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('../src/assets/WEB/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('../src/assets/WEB/fonts/Satoshi-VariableItalic.woff') format('woff'),
+       url('../src/assets/WEB/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
 *,*::before,*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1 {
+  font-size: 2rem;
+  font-family: 'Satoshi-regular', sans-serif;
+  color: #fff;
+}
+p {
+  font-family: 'Satoshi-light', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -17,10 +153,28 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #app {
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
+  /* background: linear-gradient(to right, #fbd3e9, #bb377d); */ 
+  background: linear-gradient(to right, #b993d6, #8ca6db); /* Looks very me*/
+  background: linear-gradient(to right, #00d2ff, #3a7bd5); /* very blue */
+  background: linear-gradient(to right, #de6262, #ffb88c); /* very peach */
+  /* background: linear-gradient(to right, #8e2de2, #4a00e0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #da22ff, #9733ee); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #da22ff, #9733ee); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: linear-gradient(to right, #4b6cb7, #182848); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #c04848, #480048); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #ec6f66, #f3a183); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #1cd8d2, #93edc7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
   max-width: moz-available;
   max-width: fit-content;
   width: 100vw;
@@ -29,4 +183,26 @@ body {
   /* padding: 1rem; */
   /* text-align: center; */
 
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeup {
+  animation: 1.5s fadeInUp;
 }
