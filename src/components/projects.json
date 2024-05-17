@@ -41,7 +41,7 @@
     },
     {
         "title": "FDAR : Fall Detection And Activity Recognition Using Human Skeletal Features",
-        "tech": ["tensorflow.js", "ffmpeg", "jyuptyer Notebook"],
+        "tech": ["tensorflow.js", "ffmpeg", "jyuptyer"],
         "img": "https://i.ibb.co/WsDkJ3X/image.png",
         "links": ["https://github.com/darzhz/FDAR"]
     }

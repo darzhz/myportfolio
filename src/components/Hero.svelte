@@ -4,11 +4,12 @@
     import img from "./art11.png";
     let description = "Crafting digital experiences that leave a lasting impression - one line of code at a time"
     import FancyName from "./FancyName.svelte";
+  import SparkleText from "./SparkleText.svelte";
 </script>
 <div class="hero">
     <div class="text-content" >
         <p class="salu fadeup">{salutation}</p>
-        <h1 class="name fadeup">Darsh Shyam</h1>
+        <h1 class="name fadeup"><SparkleText>Darsh Shyam</SparkleText></h1>
         <p class="desc fadeup">{description}</p>
         <div class="btns fadeup">
             <a  class="button" href='/#projects'>View Projects</a>

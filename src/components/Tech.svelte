@@ -1,7 +1,7 @@
 <svelte:head>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </svelte:head>
-<h1>My Tech Stacks</h1>
+<h1 id="title">My Tech Stacks</h1>
 <div class="Marquee">
     <div class="Marquee-content">
       <div class="Marquee-tag">
@@ -96,6 +96,14 @@
     h1 {
         margin: 20px;
     }
+    #title::after {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 1px;
+        background: white;
+        margin: 10px 0;
+    }
     #tagline {
         margin-top: 50px;
         font-family: 'satoshi-regular',sans-serif;
@@ -168,6 +176,13 @@
   display: box;
   display: flex;
   animation: marquee-reverse 18s linear infinite running;
+}
+.Marquee-content-rev:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  animation-play-state: paused;
 }
 .Marquee-content:hover {
   -webkit-animation-play-state: paused;

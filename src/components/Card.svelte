@@ -34,11 +34,11 @@
         /* display: flex; */
         /* justify-content: space-between; */
         font-family: 'satoshi-regular',sans-serif;
-        white-space: nowrap;
-        width: 200px;
-        display: block;
+        display: inline-block;
+        max-width: 200px;
         overflow: hidden;
-        text-overflow: " [...]";
+        white-space: nowrap;
+        text-overflow:ellipsis;
     }
     .card{
         /* background: #333; */
@@ -61,6 +61,7 @@
         cursor: pointer;
         transition: transform 0.3s;
         font-family: 'satoshi-light',sans-serif;
+        text-align: center;
     }
     .tag:hover{
         transform: scale(1.1);

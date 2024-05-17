@@ -1,9 +1,12 @@
+<script>
+    
+</script>
 <div class="nav">
     <div class="logo"><p>DARZH</p></div>
     <div class="links">
-        <span class="link ">Home</span>
-        <span class="link ">Projects</span>
-        <span class="link ">Contacts</span>
+        <a class="link " href="#">Home</a>
+        <a class="link " href="#projects">Projects</a>
+        <a class="link " href="#contact">Contacts</a>
     </div>
 </div>
 <style>
@@ -27,6 +30,8 @@
         margin-right: 1rem;
         cursor: pointer;
         font-family: 'satoshi-light',sans-serif;
+        text-decoration: none;
+        color: white;
     }
     .logo {
         font-size: 1.5rem;
