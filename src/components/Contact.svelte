@@ -224,5 +224,12 @@
       width: 100%;
     }
   }
+  @media (min-width: 1200px){
+    .contain {
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   
 </style>
