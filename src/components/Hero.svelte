@@ -136,5 +136,10 @@
         .desc {
             font-size: 2rem;
         }
+        .hero {
+            width: 85vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 </style>
