@@ -40,8 +40,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* padding:10vh 0vh; */
-        height: 90vh;
-        padding: 20vh 0vh;
     }
     .name {
         font-size: 3rem;
@@ -124,7 +122,7 @@
         }
         .hero {
             padding: 1px 0vh;
-            margin-bottom: 230px;
+            /* margin-bottom: 180px; */
         }
     }
     @media (min-width: 1200px){
@@ -141,6 +139,8 @@
             width: 85vw;
             margin-left: auto;
             margin-right: auto;
+            height: 90vh;
+            padding: 20vh 0vh;
         }
     }
 </style>

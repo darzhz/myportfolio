@@ -84,7 +84,7 @@
     </div>
 
     <div class="contacts contact-wrapper">
-      <SparkleText fontSize={'2rem'}>Let's Build Something Great<br></SparkleText>
+      <SparkleText fontSize={'3.2vh'}>Let's Build Something Great<br></SparkleText>
     </div>
   </div>
 </div>
