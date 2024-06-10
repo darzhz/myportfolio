@@ -42,7 +42,13 @@
     {
         "title": "FDAR : Fall Detection And Activity Recognition Using Human Skeletal Features",
         "tech": ["tensorflow.js", "ffmpeg", "jyuptyer"],
-        "img": "https://i.ibb.co/WsDkJ3X/image.png",
+        "img": "https://i.ibb.co/3Mm08gh/unnamed.jpg",
         "links": ["https://github.com/darzhz/FDAR"]
+    },
+    {
+        "title": "Neha's World",
+        "tech": ["GML", "HME"],
+        "img": "https://i.ibb.co/KNvzH79/Screenshot-from-2024-06-10-13-57-43.png",
+        "links": ["https://nehasworld.vercel.app/"]
     }
 ]}

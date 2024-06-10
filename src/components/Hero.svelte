@@ -124,7 +124,7 @@
         }
         .hero {
             padding: 1px 0vh;
-            margin-bottom: 250px;
+            margin-bottom: 230px;
         }
     }
     @media (min-width: 1200px){
