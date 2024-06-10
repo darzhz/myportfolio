@@ -1,6 +1,6 @@
 <script>
 import { onMount } from 'svelte';
-export let fontSize = '4rem';
+export let fontSize = '3.5rem';
 let index = 0;
 const interval = 1000;
 
