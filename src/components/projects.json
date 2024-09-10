@@ -4,6 +4,12 @@
     },
     "projects": [
     {
+        "title": "Mix",
+        "tech": ["React", "threejs", "framer"],
+        "img":  "https://i.ibb.co/qDSGQRz/website.png",
+        "links": ["https://mixinc.vercel.app/"]
+    },
+    {
         "title": "Artemis : MIS System",
         "tech": ["SvelteKit", "Nodejs", "SQlite","React"],
         "img": "https://i.ibb.co/gZqM5dN/Screenshot-from-2024-05-09-01-44-49.png",
