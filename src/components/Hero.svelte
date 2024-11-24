@@ -13,7 +13,7 @@
         <p class="desc fadeup">{description}</p>
         <div class="btns fadeup">
             <a  class="button" href='/#projects'>View Projects</a>
-            <a class="button" href='https://drive.google.com/file/d/1FBL4UdLPD9-FCzxb-2Q34ZK-wYH_xwzD/view?usp=sharing'>Download Resume</a>
+            <a class="button" href='https://drive.google.com/file/d/1bcnDV0xEI6eAJ19-xJwg5d3_ZR2bPmYp/view?usp=drive_link'>Download Resume</a>
         </div>
     </div>
     <div class="content fadeup">

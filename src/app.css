@@ -162,9 +162,9 @@ body {
 #app {
   /* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
   /* background: linear-gradient(to right, #fbd3e9, #bb377d);  */
-  /* background: linear-gradient(to right, #b993d6, #8ca6db); Looks very me */
-  /* background: linear-gradient(to right, #00d2ff, #3a7bd5); very blue */
-  background: linear-gradient(to right, #de6262, #ffb88c); 
+  /* background: linear-gradient(to right, #b993d6, #8ca6db);  */
+  /* background: linear-gradient(to right, #00d2ff, #3a7bd5); */
+  /* background: linear-gradient(to right, #de6262, #ffb88c);  */
   /* background: linear-gradient(to right, #8e2de2, #4a00e0);  */
   /* background: linear-gradient(to right, #da22ff, #9733ee);  */
   /* background: linear-gradient(to right, #da22ff, #9733ee);  */
@@ -173,6 +173,7 @@ body {
   /* background: linear-gradient(to right, #c04848, #480048);  */
   /* background: linear-gradient(to right, #ec6f66, #f3a183);  */
   /* background: linear-gradient(to right, #1cd8d2, #93edc7);  */
+  background: #0f151d;
 
 
 
